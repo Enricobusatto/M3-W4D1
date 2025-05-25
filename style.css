@@ -1,10 +1,43 @@
+body {
+    background: black !important;
+}
+
+.navbar.navbar-expand-md.bg-body-tertiary {
+    background: black !important;
+}
+.nav-link{
+    color: rgb(208, 208, 208) !important;
+}
+.nav-link:hover {
+    color: white !important;
+}
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.943) !important;
+}
+.dropdown-menu:hover{
+    background-color: rgba(180, 179, 179, 0.943) !important;
+}
+
+.d-block.w-100:hover{
+    scale: 1.15;
+    box-shadow: rgba(152, 152, 152, 0.409);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-toggler{
+    background: white !important;
+}
+
 .logo {
     width: 100px !important;
 }
-.dropdown-menu > a{
+
+.dropdown-menu>a {
     color: white !important;
 
 }
+
 .navbar.navbar-expand-md.bg-body-tertiary {
     margin-bottom: 30px !important;
     color: white !important;
@@ -54,7 +87,7 @@ h1 {
 }
 
 .carousel-inner {
-    overflow: visible;
+    overflow: visible !important;
     padding-right: 60px;
     margin-right: -60px;
     margin-left: 30px;
@@ -69,16 +102,6 @@ h1 {
     padding: 0 5px;
 }
 
-.preview-img {
-    position: absolute;
-    right: -305px;
-    top: 0;
-    width: 315px !important;
-    height: auto !important;
-    opacity: 0.7;
-    pointer-events: none;
-    border-radius: 4px;
-}
 
 .carousel.slide {
     margin-bottom: 30px;
@@ -88,4 +111,56 @@ h3 {
     font-size: 20px !important;
     color: white !important;
 
+}
+.carousel-control-prev{
+    justify-content: flex-start !important;
+}
+.carousel-control-next{
+    justify-content: flex-end !important;
+}
+footer a, p{
+    color: rgb(184, 172, 172) !important;
+    font-size: 14px !important;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer a:hover{
+    color: white !important;
+}
+#carouselExample3{
+    margin-bottom: 150px !important;
+}
+.social > a{
+    color: rgb(184, 172, 172) !important;
+    font-size: 30px !important;
+    margin-right: 20px !important;
+}
+.social > a:hover{
+    color: white !important;
+}
+.social{
+    margin-left: 15%;
+    margin-bottom: 20px !important;
+}
+#serviceCode{
+    color:rgb(184, 172, 172) ;
+    border: 2px solid rgb(184, 172, 172);
+    padding: 7px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+#serviceCode:hover{
+    color: white !important;
+    border: 2px solid white !important;
+}
+footer > p{
+    margin-left: 15%;
+}
+.carousel-control-prev{
+    width: 40px !important;
+}
+.carousel-control-next{
+    width: 40px !important;
 }
